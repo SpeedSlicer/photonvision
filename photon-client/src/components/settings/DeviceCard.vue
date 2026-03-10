@@ -558,7 +558,7 @@ watch(metricsHistorySnapshot, () => {
               :variant="theme.global.current.value.dark ? 'outlined' : 'elevated'"
               @click="
                 offlineUpdateDialog.show = false;
-                handleOfflineUpdate(offlineUpdate.value.files[0]);
+                handleOfflineUpdate(offlineUpdate.files[0]);
               "
             >
               <v-icon start class="open-icon" size="large"> mdi-upload </v-icon>
